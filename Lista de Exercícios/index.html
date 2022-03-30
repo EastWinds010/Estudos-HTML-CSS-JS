@@ -228,23 +228,7 @@
                     aria-describedby="basic-addon1">
                 </div>
                 <p class="card-text">
-                  <script>
-                    function E6() {
-                      const n1 = parseInt(window.prompt("Digite o primeiro número"));
-                      const n2 = parseInt(window.prompt("Digite o segundo número"));
-                      const n3 = parseInt(window.prompt("Digite o terceiro número"));
-
-                      if(n1 > n2 && n1 > n3) {
-                        Resposta6.value = ("O número "+ n1 +" é o MAIOR");
-                      }else if(n2 > n1 && n2 > n3) {
-                        Resposta6.value = ("O número "+ n2 +" é o MAIOR");
-                      }else if(n3 > n1 && n3 > n2) {
-                        Resposta6.value = ("O número "+ n3 +" é o MAIOR");
-                      }else{
-                        Resposta6.value = ("O números são IGUAIS")
-                      }
-                    }
-                  </script>
+                  <script src="js/06.js" ></script>
                 </p>
               </div>
             </div>
@@ -279,28 +263,7 @@
                     aria-describedby="basic-addon1">
                 </div>
                 <p class="card-text">
-                  <script>
-                    function E7() {
-                      const n1 = parseInt(window.prompt("Digite o primeiro número"));
-                      const n2 = parseInt(window.prompt("Digite o segundo número"));
-                      const n3 = parseInt(window.prompt("Digite o terceiro número"));
-                      let maior = n1
-                      if(n2 > maior) {
-                        maior = n2
-                      }
-                      if(n3 > maior) {
-                        maior = n3
-                      }
-                      let menor = n1
-                      if (n2 < menor) {
-                        menor = n2
-                      }
-                      if(n3 < menor) {
-                        menor = n3
-                      }
-                      Resposta7.value = ("Maior: "+ maior +" Menor: "+ menor)
-                    }
-                  </script>
+                  <script src="js/07.js"></script>
                 </p>
               </div>
             </div>
@@ -336,21 +299,7 @@
                     aria-describedby="basic-addon1">
                 </div>
                 <p class="card-text">
-                  <script>
-                    function E8() {
-                      const n1 = parseInt(window.prompt("Digite o valor do primeiro produto: "));
-                      const n2 = parseInt(window.prompt("Digite o valor do segundo produto: "));
-                      const n3 = parseInt(window.prompt("Digite o valor do terceiro produto: "));
-                      let menor = n1
-                      if(n2 < menor) {
-                        menor = n2;
-                      }
-                      if(n3 < menor) {
-                        menor = n3;
-                      }
-                      Resposta8.value = ("compre o produto de valor: "+ menor+" R$");
-                    }
-                  </script>
+                  <script src="js/08.js"></script>
                 </p>
               </div>
             </div>
@@ -386,28 +335,7 @@
                     aria-describedby="basic-addon1">
                 </div>
                 <p class="card-text">
-                  <script>
-                    function E9() {
-                      const n1 = parseInt(window.prompt("Digite o primeiro número: "));
-                      const n2 = parseInt(window.prompt("Digite o segundo número: "));
-                      const n3 = parseInt(window.prompt("Digite o terceiro número: "));
-                      if(n1 >= n2 && n1 >=n3 && n2 >= n3){
-                        Resposta9.value = (n1+", "+n2+", "+n3);
-                      }else if(n1 >= n2 && n1 >=n3 && n3 >= n2){
-                        Resposta9.value = (n1+", "+n3+", "+n2);
-                      }else if(n2 >= n1 && n2 >=n3 && n1 >= n3){
-                        Resposta9.value = (n2+", "+n1+", "+n3);
-                      }else if(n2 >= n1 && n2 >= n3 && n3 >= n1){
-                        Resposta9.value = (n2+", "+n3+", "+n1);
-                      }else if(n3 >= n1 && n3 >= n2 && n1 >= b){
-                        resposta9.value = (n3+", "+n1+", "+n2);
-                      }else if(n3 >= n1 && n3 >= n2 && n2 >= n1){
-                        resposta9.value = (n3+", "+n2+", "+n1);
-                      }else{
-                        resposta9.value = "ERRO"
-                      }
-                    }
-                  </script>
+                  <script src="js/09.js"></script>
                 </p>
               </div>
             </div>
